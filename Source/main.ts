@@ -55,7 +55,18 @@ function registerCommands() {
 					textEditor,
 					textEditor.selectedRanges
 				)) {
-					edit.insert(lineEnd, ";\n");
+					let toAdd = ";\n";
+
+					const lineRange = textEditor.getLineRangeForRange(
+						new Range(lineEnd, lineEnd)
+					);
+					const line = textEditor.getTextInRange(lineRange);
+					const whitespaceMatch = line.match(/^\s+/);
+					if (whitespaceMatch) {
+						toAdd += whitespaceMatch[0];
+					}
+
+					edit.insert(lineEnd, toAdd);
 				}
 			});
 		}
