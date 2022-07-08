@@ -1,10 +1,15 @@
 {
+	"$schema": "https://raw.githubusercontent.com/apexskier/nova-json-language-server/main/json.novaextension/nova-extension-schema.json",
+
 	"identifier": "belcar.Colonoscopia",
-	"name": "Colonoscopia",
 	"organization": "belcar-s",
-	"description": "Lorem ipsum, dolor sit amet.",
 	"version": "1.0",
 	"categories": ["commands"],
+
+	"name": "Colonoscopia",
+	"description": "Quickly add semicolons.",
+	"repository": "https://github.com/belcar-s/nova-colonoscopia",
+	"bugs": "https://github.com/belcar-s/nova-colonoscopia/issues",
 
 	"main": "main.js",
 
