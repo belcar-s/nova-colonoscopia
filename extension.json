@@ -21,15 +21,18 @@
 		"editor": [
 			{
 				"title": "Add Semicolon To Line's End",
-				"command": "colonoscopia.addSemi"
+				"command": "colonoscopia.addSemi",
+				"shortcut": "ctrl-return"
 			},
 			{
 				"title": "Add Semicolon To Line's End And Keep Cursor Position",
-				"command": "colonoscopia.addSemiKeepPos"
+				"command": "colonoscopia.addSemiKeepPos",
+				"shortcut": "opt-cmd-return"
 			},
 			{
 				"title": "Add Semicolon And Continue At New Line",
-				"command": "colonoscopia.addSemiNewLine"
+				"command": "colonoscopia.addSemiNewLine",
+				"shortcut": "opt-return"
 			}
 		]
 	},
