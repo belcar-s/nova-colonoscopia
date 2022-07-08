@@ -4,7 +4,7 @@
 	"identifier": "belcar.Colonoscopia",
 	"organization": "belcar-s",
 	"version": "1.0",
-	"categories": ["commands", "key-bindings"],
+	"categories": ["commands"],
 
 	"name": "Colonoscopia",
 	"description": "Quickly add semicolons.",
