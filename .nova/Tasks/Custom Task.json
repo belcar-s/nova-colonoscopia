@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nnpx tsc\n"
+    }
+  },
+  "openLogOnRun" : "fail"
+}
