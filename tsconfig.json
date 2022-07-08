@@ -1,0 +1,9 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"outDir": "./Scripts",
+		"target": "ES2022",
+		"module": "CommonJS"
+	},
+	"include": ["./Source/**/*"]
+}
