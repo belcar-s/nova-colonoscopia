@@ -12,7 +12,7 @@ Let's get started!
 🎈 Include a brief description of the features your extension provides. For example:
 -->
 
-![an illustration of a person and their intestine next to the word 'colonoscopy'](Colonoscopy.png)
+![an illustration of a person and their intestine next to the word 'colonoscopy'](https://raw.githubusercontent.com/belcar-s/nova-colonoscopia/trunk/Colonoscopy.png)
 
 **Colonoscopia** helps to add semicolons at the end of lines.
 
